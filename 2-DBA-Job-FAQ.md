@@ -78,7 +78,7 @@ access control, backup/recovery, storage/archiving, capacity planning, 24x7 on-c
 - Confirm post-deployment validation and rollback readiness
 
 **Q8. How do you sanitize production data before refreshing lower environments?**
-- Identify PII/PHI columns subject to data protection requirements
+- Identify PII/PHI (PII (Personally Identifiable Information) and PHI (Protected Health Information)) columns subject to data protection requirements
 - Apply masking or tokenization scripts during the refresh process
 - Exclude or truncate audit/log tables not needed for testing
 - Restrict access to the refreshed environment based on need-to-know
