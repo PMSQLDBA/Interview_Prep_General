@@ -60,7 +60,7 @@ access control, backup/recovery, storage/archiving, capacity planning, 24x7 on-c
 ## Section 2 — Environment Management (Dev/Staging/Training/Production)
 
 **Q6. How do you maintain consistency across Dev, Staging, Training, and Production environments?**
-- Use source-controlled deployment scripts (TFS/VSS) for schema changes
+- Use source-controlled deployment scripts (TFS/VSS) --> (Team Foundation Server and Visual SourceSafe) for schema changes
 - Apply the same patch level and configuration baseline across all tiers
 - Use environment-specific config files rather than hardcoded connection strings
 - Refresh lower environments periodically from sanitized production backups
