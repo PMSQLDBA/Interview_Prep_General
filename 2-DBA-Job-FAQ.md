@@ -1,7 +1,9 @@
 # SQL Server DBA — 100 FAQ Reference
-**Author:** Praveen Kumar Madupu (PMSQLDBA)
+
 **Scope:**Installation & administration, environment management, code review/standards, data protection, performance tuning, SSIS, security, 
+
 backup/NAS retention, production support,Argent job scheduling, data modeling, query assistance, execution plans/indexing, documentation, 
+
 access control, backup/recovery, storage/archiving, capacity planning, 24x7 on-call, SDLC, and toolset (SSMS, Profiler, SSIS, SSRS, SSAS, BCP, Commvault, Perfmon, ARGENT, ERwin, VSS/TFS, Visio).
 
 ---
