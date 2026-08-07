@@ -167,8 +167,8 @@ access control, backup/recovery, storage/archiving, capacity planning, 24x7 on-c
 - Version-control the data standards document itself
 
 **Q17. What steps ensure compliance with data protection regulations?**
-- Classify data by sensitivity (PII, PHI, financial, public)
-- Apply encryption at rest (TDE) and in transit (TLS) for sensitive data
+- Classify data by sensitivity (PII, PHI, financial, public) -- PII (Personally Identifiable Information) and PHI (Protected Health Information)
+- Apply encryption at rest (TDE) and in transit (TLS-Transport Layer Security) for sensitive data
 - Implement column-level encryption or Dynamic Data Masking where appropriate
 - Restrict access to sensitive data via role-based permissions
 - Maintain audit logs of access to regulated data
@@ -231,7 +231,7 @@ access control, backup/recovery, storage/archiving, capacity planning, 24x7 on-c
 - Blocking and lock contention from long-running transactions
 - Insufficient memory causing buffer pool pressure and PLE drops
 - I/O subsystem bottlenecks (high disk latency)
-- Poorly written queries (RBAR logic, unnecessary cursors, non-SARGable predicates)
+- Poorly written queries (RBAR logic (Row-By-Agonizing-Row), unnecessary cursors, non-SARGable predicates)
 
 **Q24. How do you identify and resolve blocking issues?**
 - Query sys.dm_exec_requests / sys.dm_os_waiting_tasks to find blocking chains
